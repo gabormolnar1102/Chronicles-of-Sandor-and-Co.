@@ -19,15 +19,25 @@ Additional attributes of enemies (also level 1 calculations):
 
 One round of battle:
 1. The hero throws with a 20 sided dice. The number + hero attack rating has to be more than the enemy defence rating.
+
     If the hero throws a 20 (or 18 in case of raging enemy), then the attack is a critical.
+    
 2. In case of a successful attack, the hero throws with a 6 sided dice, which represents the damage. This is added to the attack rating, and this hets subtracted of the enemies current health.
+
     In case of a critical attack, the final damage gets doubled.
+    
 3. If the enemy is not killed by the hero's attack, then it throws the same dices, same logic is here as well, inlcuding the critical attack.
+
     If the enemy is in an enraged status, it's defence rating is reduced to it's 2/3 of total defence rating, but gets to throw twice with the damage dice.
+    
 4. If the enemy attack kills the hero, then a level 1 hero is generated.
 
 Leveling of attributes:
+
 -health increased by constitution * 8
+
 -attack rating increased by strength attribute
+
 -defense rating increased by dexterity attribute
+
 -every third level, user can decide to increase strength, dexterity, or constitution by 1
