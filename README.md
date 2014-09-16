@@ -6,15 +6,23 @@ It is a simple rpg game concept, with very basic functions. For now, it only sim
 The hero can gain experience from defeating enemies, which is calculated based on the attributes of the enemy. As there is experience, so there is also a leveling system. Some attributes are calculated automatically, but on given levels the user can increase one attribute at a time.
 
 Attributes are calculated as follows(for a newly generated, level 1 character):
+
 -XP = 0
+
 -level = 1
+
 -strength, dexterity, constitution: random number between 1-3
+
 -health = constitution * 30
+
 -attack rating = strength * 5
+
 -defence rating = dexterity * 5
 
 Additional attributes of enemies (also level 1 calculations):
+
 -status = 'calm' (enemies get enraged when their health gets below 20% of their full health)
+
 -amount of xp it's worth = (full health / 2) + attack rating + defence rating
 
 One round of battle:
