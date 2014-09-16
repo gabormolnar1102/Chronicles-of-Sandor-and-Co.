@@ -26,6 +26,7 @@ Additional attributes of enemies (also level 1 calculations):
 -amount of xp it's worth = (full health / 2) + attack rating + defence rating
 
 One round of battle:
+
 1. The hero throws with a 20 sided dice. The number + hero attack rating has to be more than the enemy defence rating.
 
     If the hero throws a 20 (or 18 in case of raging enemy), then the attack is a critical.
