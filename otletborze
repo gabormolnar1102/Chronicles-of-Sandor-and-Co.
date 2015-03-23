@@ -1,6 +1,16 @@
 alapotletek, játéklogikához
 Sanyi a főhős: nincsennek cast-ok 
 attribútumok: att, armor, hp, perk. pp
++ inventory: lista amiben tárolod a stuffjaidat
 
 
-programozáshoz
+programozáshoz:
+3 réteg:
+1 réteg logic:
+
+2 réteg gui:
+
+
+3 réteg action listeners:
+
+
